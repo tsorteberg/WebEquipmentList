@@ -1,0 +1,26 @@
+<!--  
+/**
+ * @author Tom Sorteberg - tsorteberg
+ * CIS175 - Spring 2021
+ * Feb 25, 2021
+ */
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Studio Equipment List</title>
+</head>
+<body>
+<h1>Studio Equipment List</h1>
+<h2>Add an item:</h2>
+	<form action="addItemServlet" method="post">
+		<label for="brand">Brand:</label>
+		<input type="text" name="brand">
+		<label for="model">Model:</label>
+		<input type="text" name="model">
+		<input type="submit" value="Add Item">
+	</form><br />
+	<a href="viewAllItemsServlet">View all items in equipment list:</a>
+</body>
+</html>
