@@ -3,11 +3,13 @@
 	<persistence-unit name="StudioEquipmentList" transaction-type="RESOURCE_LOCAL">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<class>model.ListItem</class>
+		<class>model.Studio</class>
+		<class>model.ListDetails</class>
+		<class>controller.LocalDateAttributeConverter</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://cis175.cjhiz8qunkma.us-east-1.rds.amazonaws.com/studioeq"/>
 			<property name="javax.persistence.jdbc.user" value="admin"/>
-			<property name="javax.persistence.jdbc.password" value="My$QL2021!"/>
 			<property name="eclipselink.logging.file" value="output.log"/>
 		</properties>
 	</persistence-unit>

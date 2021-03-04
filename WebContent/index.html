@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>Studio Equipment List</h1>
-<h2>Add an item:</h2>
+<h2>Add Equipment:</h2>
 	<form action="addItemServlet" method="post">
 		<label for="brand">Brand:</label>
 		<input type="text" name="brand">
@@ -21,6 +21,8 @@
 		<input type="text" name="model">
 		<input type="submit" value="Add Item">
 	</form><br />
-	<a href="viewAllItemsServlet">View all items in equipment list:</a>
+	<button onclick="window.location.href='ViewAllItemsServlet';">View Equipment:</button><br /><br />
+	<button onclick="window.location.href='ViewAllListsServlet';">View Lists:</button><br /><br />
+	<button onclick="window.location.href='AddItemsForListServlet';">Create List:</button><br /><br />
 </body>
 </html>

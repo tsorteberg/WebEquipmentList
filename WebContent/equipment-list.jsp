@@ -16,7 +16,7 @@
 </head>
 <body>
 	<h1>Studio Equipment List</h1>
-	<h2>All items in equipment list:</h2>
+	<h2>All Equipment:</h2>
 	<form method="post" action="navigationServlet">
 		<table>
 			<tr>

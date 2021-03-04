@@ -25,6 +25,6 @@
 		<input type="hidden" name="id" value="${itemToEdit.id}">
 		<input type = "submit" value="Save">	
 	</form>
-	<a href="viewAllItemsServlet">Cancel</a>
+	<a href="ViewAllItemsServlet">Cancel</a>
 </body>
 </html>

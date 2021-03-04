@@ -44,7 +44,7 @@ public class AddItemServlet extends HttpServlet {
 		dao.insertItem(li);
 		
 		// Method call to redirect to index.html using request dispatcher.
-		getServletContext().getRequestDispatcher("/viewAllItemsServlet").forward(request, response);
+		getServletContext().getRequestDispatcher("/ViewAllItemsServlet").forward(request, response);
 	}
 
 }
